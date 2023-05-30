@@ -32,6 +32,9 @@ public class PizzeriaApplication {
 		Product pizzaPro = (Product) cntxt.getBean("prosciutto");
 		log.info("PIZZAPRO: " + pizzaPro.getName() + ", prezzo: " + pizzaPro.getPrice() + "||" + pizzaPro.getInfo());
 
+		Product pizzaChe = (Product) cntxt.getBean("cheese");
+		log.info("PIZZACHE: " + pizzaChe.getName() + ", prezzo: " + pizzaChe.getPrice() + "||" + pizzaChe.getInfo());
+		
 		cntxt.close();
 	}
 
