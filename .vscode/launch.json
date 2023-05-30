@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PizzeriaApplication<BE-D16>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "mariannaalbrici.BED16.PizzeriaApplication",
+            "projectName": "BE-D16",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
